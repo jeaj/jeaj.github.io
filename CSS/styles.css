@@ -1,3 +1,22 @@
-	h1{
-		color:red;
-	}
+/* Global */
+	body { font-family: 'Oswald', sans-serif;
+ }
+
+/* Nav */
+nav a:link,
+nav a:visited {
+  color: #77F2F2;
+  text-decoration: none;
+}
+nav a:focus {
+  background: green;
+}
+nav a:hover {
+  background: #5EC8F2;
+  color: #F20732;
+}
+nav a:active {
+  background: red;
+}
+
+/* Bio */
