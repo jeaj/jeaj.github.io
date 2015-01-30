@@ -5,18 +5,34 @@
 /* Nav */
 nav a:link,
 nav a:visited {
-  color: #77F2F2;
+  color: #BDD4DE;
   text-decoration: none;
 }
 nav a:focus {
   background: green;
 }
 nav a:hover {
-  background: #5EC8F2;
-  color: #F20732;
+  background: #2B3A42;
+  color: #EFEFEF;
 }
 nav a:active {
   background: red;
 }
-
+/*	Home Page */
+.main-header {
+	text-align: center;
+	background-color: #2B3A42;
+}
 /* Bio */
+body {
+	margin: 0;
+	background-color: #3F5765;
+}
+.bio-header {
+	text-align: center;
+	background-color: #2B3A42;
+}
+.bio-footer {
+	text-align: center;
+	background-color: #2B3A42;
+}
