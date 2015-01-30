@@ -23,16 +23,36 @@ nav a:active {
 	text-align: center;
 	background-color: #2B3A42;
 }
+
 /* Bio */
+.me {
+	width: 200px;
+}
 body {
+	font-size: 1em;
 	margin: 0;
 	background-color: #3F5765;
 }
+h2 {
+	color: #BDD4DE;
+}
+
 .bio-header {
 	text-align: center;
 	background-color: #2B3A42;
+	color: #EFEFEF;
+}
+.secondary-header {
+	color: #BDD4DE;
+	text-align: center;
+}
+.primary-content,
+.secondary-content {
+	background-color: #2B3A42;
+	width: 60%;
+	margin: auto;
+	padding: 25px;
 }
 .bio-footer {
 	text-align: center;
-	background-color: #2B3A42;
 }
