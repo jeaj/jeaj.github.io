@@ -56,3 +56,46 @@ h2 {
 .bio-footer {
 	text-align: center;
 }
+
+/*Style-tile*/
+/* Layout for Style Tile
+Feel free to change */
+section {
+	margin: 20px 0;
+}
+
+.color-1,
+.color-2,
+.color-3,
+.pattern-1,
+.pattern-2,
+.pattern-3, 
+.imagery-1,
+.imagery-2,
+.imagery-3 {
+	border: 1px solid #000;
+	float: left;
+	margin: 0 10px;
+	height: 50px;
+	width: 50px;
+}
+
+
+/* Set Your Own Margin & Padding */
+h2, h3, p {
+	margin: 0;
+}
+
+/* Clearfix - Oo Not Remove */
+.clearfix {clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}
+
+/*Color Pallette*/
+.style-tile .color-1 {
+	background: red;
+}
+.style-tile .color-2 {
+	background: blue;
+}
+body.style-tile {
+	font-family: 'Roboto Condensed', sans-serif;
+}
