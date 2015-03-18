@@ -30,7 +30,19 @@ a:active {
 	background-color: #2B3A42;
 }
 ul {
-	margin-left: 100px;
+	list-style-type: none;
+}
+.main-nav {
+	display: flex;
+	text-decoration: none;
+	text-align: center;
+	padding: 8px 15px;
+	border-radius: 5px;
+}
+.main-nav li {
+	align-self: center;
+	margin-left: 8px;
+	margin-right: 8px;
 }
 .homecontent {
 	width: 60%;
