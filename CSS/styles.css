@@ -4,29 +4,49 @@
 
 /* Nav */
 nav a:link,
-nav a:visited {
+nav a:visited,
+a:link,
+a:visited {
   color: #BDD4DE;
   text-decoration: none;
 }
-nav a:focus {
+nav a:focus,
+a:focus {
   background: green;
 }
-nav a:hover {
+nav a:hover,
+a:hover {
   background: #2B3A42;
   color: #EFEFEF;
 }
-nav a:active {
+nav a:active,
+a:active {
   background: red;
 }
+
 /*	Home Page */
 .main-header {
 	text-align: center;
+	background-color: #2B3A42;
+}
+ul {
+	margin-left: 100px;
+}
+.homecontent {
+	width: 60%;
+	margin: auto;
+	padding: 25px;
 	background-color: #2B3A42;
 }
 
 /* Bio */
 .me {
 	width: 200px;
+	border-radius: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 100px;
+
 }
 body {
 	font-size: 1em;
@@ -53,6 +73,7 @@ h2 {
 	margin: auto;
 	padding: 25px;
 }
+
 .bio-footer {
 	text-align: center;
 }
@@ -91,11 +112,14 @@ h2, h3, p {
 
 /*Color Pallette*/
 .style-tile .color-1 {
-	background: red;
+	background: #2B3A42;
 }
 .style-tile .color-2 {
-	background: blue;
+	background: #BDD4DE;
+}
+.style-tile .color-3 {
+	background: #EFEFEF;
 }
 body.style-tile {
-	font-family: 'Roboto Condensed', sans-serif;
+	font-family: 'Oswald', sans-serif;
 }
