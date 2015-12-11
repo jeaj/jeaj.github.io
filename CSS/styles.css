@@ -123,61 +123,24 @@ body {
 	text-align: center;
 }
 
-/*.gallery {
-  position: relative;
-  margin-left: 380px;
-}*/
-
-/* Gallery Controls */
-.gallery .control-button {
-  color: #ccc;
-  color: rgba(255, 255, 255, 0.4);
-}
-
-.gallery .control-button:hover {
-  color: white;
-  color: rgba(255, 255, 255, 0.8);
-}
-
-/*
-  Gallery Items
-*/
-.gallery {*/
-  position: relative;
-}
 
 
-.gallery .item {
-  height: 400px;
-  overflow: hidden;
-  text-align: center;
-}
-
-.gallery .controls {
-  position: relative;
-  bottom: 100px;
+/*slides*/
+.slides {
   width: 100%;
-  text-align: center;
+  height: 100%;
+  margin: 100px;
 }
 
-.gallery .control-button {
-  display: inline-block;
-  margin: 0 .02em;
-  font-size: 3em;
-  text-align: center;
-  text-decoration: none;
-  transition: color .1s;
+.slide .button {
+  color: #FF530D;
+  border-color: #fff;
+  opacity: .6;
+  
 }
-
-/* Desktop */
-
-@media (min-width: 960px) {
-
-	#top {
-		width: 300px;
-
-	}
-
+.slide .button:hover {
+  opacity: 1;
+    margin: 100px;
 }
 
 /*Style-tile*/
