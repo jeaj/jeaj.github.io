@@ -140,6 +140,7 @@ body {
 }
 .slide .button:hover {
   opacity: 1;
+    margin: 100px;
 }
 
 /*Style-tile*/
