@@ -30,8 +30,8 @@ a:active {
 	text-align: center;
 	background-color: #2B3A42;
 	color: #BDD4DE;
-    margin-left: 175px;
-    margin-right: 175px
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
 ul {
@@ -55,7 +55,7 @@ ul {
 }
 .homecontent {
 	/*width: 60%;*/
-	margin: 50px;
+	margin: autp;
 	padding: 25px;
 	background-color: #2B3A42;
 	text-align: center;
@@ -70,6 +70,11 @@ ul {
 	margin-right: 50px;
 }
 
+.me2 {
+	width: 200px;
+    border-radius: 10%;
+    border: solid white 5px;
+}
 /* Bio */
 .me {
 	width: 200px;
