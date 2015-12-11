@@ -1,4 +1,8 @@
 jeaj.github.io
 ==============
 
-Final Website Due March 16th at 8am
+Citations
+jquery: https://jquery.com/
+Slick: http://kenwheeler.github.io/slick/
+Sticky: http://stickyjs.com/
+typeform: typeform.com
