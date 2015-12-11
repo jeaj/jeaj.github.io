@@ -2,6 +2,7 @@
 	body { font-family: 'Oswald', sans-serif;
  }
 
+
 /* Nav */
 nav a:link,
 nav a:visited,
@@ -29,6 +30,8 @@ a:active {
 	text-align: center;
 	background-color: #2B3A42;
 	color: #BDD4DE;
+    margin-left: 175px;
+    margin-right: 175px
 }
 
 ul {
@@ -52,7 +55,7 @@ ul {
 }
 .homecontent {
 	/*width: 60%;*/
-	margin: auto;
+	margin: 50px;
 	padding: 25px;
 	background-color: #2B3A42;
 	text-align: center;
@@ -70,17 +73,20 @@ ul {
 /* Bio */
 .me {
 	width: 200px;
-	border-radius: 100%;
+    border-radius: 10%;
+    border: solid white 5px;
 	margin-top: 10px;
 	margin-bottom: 10px;
 	margin-left: 10px;
 	float: right;
-	/*margin-left: 100px;*/
+	margin-left: 50px;
 
 }
+
 body {
 	font-size: 1em;
-	margin: 0;
+	margin: 10px;
+    color: #BDD4DE;
 	background-color: #3F5765;
 }
 
@@ -89,19 +95,23 @@ body {
 	text-align: center;
 	background-color: #2B3A42;
 	color: #EFEFEF;
+    margin-left: 150px;
+    margin-right: 150px
 }
 .secondary-header {
 	color: #BDD4DE;
 	text-align: left;
-	margin-bottom: 20px;
-	margin-top: 20px;
+	margin-bottom: 40px;
+	margin-top: 40px;
+    
 }
 .primary-content,
 .secondary-content {
 	background-color: #2B3A42;
 	width: 60%;
 	margin: auto;
-	padding: 25px;
+	padding: 50px;
+    
 }
 
 .bio-footer {
@@ -127,7 +137,7 @@ body {
 /*
   Gallery Items
 */
-.gallery {
+.gallery {*/
   position: relative;
 }
 
